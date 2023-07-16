@@ -48,8 +48,8 @@ function Login({ setTheUser }) {
   return (
     <div className={LoginStyles.container}>
         <div className={LoginStyles.mainContainer}>
-            <h1>Heading</h1>
-            <p>Description</p>
+            <h1>Log in</h1>
+            <p>start your journy</p>
             <TextField id="filled-basic" label="Email" variant="filled" size='small' color='success'
             onChange={(event) => onEmailChange(event.target.value)}
         style={{width: '200px'}}/>

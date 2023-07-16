@@ -30,9 +30,11 @@ const MenuProps = {
 };
 
 const skillSet = [
-    'HTML', 
-    'CSS',
-    'JavaScript'
+    'WEB DEVELOPMENT', 
+    'MARKETING',
+    'SOFTWARE DDEVELOPMENT',
+    'VIDEO EDITING',
+    'AI ARTIST'
   ];
 
 function getStyles(skillSet, personName, theme) {
@@ -160,8 +162,8 @@ function register({ setTheUser }) {
   return (
     <div className={SignUpStyles.container}>
     <div className={SignUpStyles.mainContainer}>
-        <h1>Heading</h1>
-        <p>Description</p>
+        <h1>Sign up</h1>
+        <p>start your journy</p>
         <TextField id="filled-basic" label="Name" variant="filled" size='small' color='success'
         style={{width: '200px'}} onChange={(e) => onNameChange(e.target.value)}
         />
